@@ -1,0 +1,26 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Locatix",
+		"description": "Locatix is an addon that hides your coordinates unless you held the new item called 'Coordinates'",
+		"uuid": "9187d43b-2a8b-4743-8890-e5494e60342d",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 21, 0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "3c8c16f3-a30d-405f-82fe-15ba7b0252c6",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+		"authors": ["daniswastaken"]
+	},
+	"dependencies": [
+		{
+			"uuid": "664c96ce-c597-4612-8d85-399594395108",
+			"version": [1, 0, 0]
+		}
+	]
+}

@@ -9,8 +9,10 @@
 	},
 	"modules": [
 		{
-			"type": "data",
+			"type": "script",
 			"uuid": "2e603af7-e200-462f-9abe-1146923ffa18",
+			"language": "javascript",
+			"entry": "scripts/main.js",
 			"version": [1, 0, 0]
 		}
 	],
@@ -21,6 +23,10 @@
 		{
 			"uuid": "9187d43b-2a8b-4743-8890-e5494e60342d",
 			"version": [1, 0, 0]
-		}
+		},
+		{
+            "module_name": "@minecraft/server",
+            "version": "2.0.0"
+        }
 	]
 }
